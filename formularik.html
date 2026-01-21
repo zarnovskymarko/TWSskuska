@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulár</title>
+    <link rel="stylesheet" href="ty.css">
+</head>
+<body>
+
+    <div class="vyber">
+        <a href="uvod.html">Úvod</a>
+        <a href="galerka.html">Galéria</a>
+        <a href="rozvrh.html">Rozvrh</a>
+        <a href="zoznam.html">Zoznam</a>
+        <a href="formularik.html">Formulár</a>
+
+        <div class="spodok">
+            <img src="logo.png" alt="logo" class="logicek">
+            <p class="spodok-text"> Marko Žarnovský | Školský projekt</p>
+        </div>
+    </div>
+
+    <div class="nadpis">
+        <h1> Kontaktuj ma</h1>
+        <p>Vyplň formulár a odošli správu</p>
+    </div>
+
+   <div class="formular-box">
+    <form action="https://zaregistrujsa.sk" method="post">
+        <label for="meno">Meno:</label>
+        <input type="text" id="meno" name="meno" placeholder="Zadaj svoje meno">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Zadaj svoj email">
+
+        <label for="predmet">Predmet:</label>
+        <input type="text" id="predmet" name="predmet" placeholder="Zadaj predmet správy">
+
+        <label for="sprava">Správa:</label>
+        <textarea id="sprava" name="sprava" placeholder="Napíš svoju správu"></textarea>
+
+        <button type="submit">Odoslať</button>
+    </form>
+</div>
+
+</body>
+</html>
